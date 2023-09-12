@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <!-- Add any other NuGet package references your project requires -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <!-- Add any other source code files your project includes -->
+  </ItemGroup>
+
+</Project>
